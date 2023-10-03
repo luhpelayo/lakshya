@@ -56,7 +56,7 @@ pipeline {
                         
                         // Ejecutar el contenedor en tu instancia EC2
                         docker.image(DOCKER_IMAGE).withRun('-p 8000:8000') {
-                            // Puedes ejecutar comandos adicionales si es necesario
+                        
                         }
                     }
                 }

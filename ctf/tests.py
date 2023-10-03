@@ -32,7 +32,4 @@ class YourAppTestCase(TestCase):
         valid_categories = [choice[0] for choice in Questions._meta.get_field('category').choices]
         self.assertIn('category_web', valid_categories)
         self.assertIn('category_reversing', valid_categories)
-        # Agrega más aserciones aquí según tus necesidades
-
-    # Agrega más pruebas según tus necesidades
-
+  
